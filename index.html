@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cifrado Afin</title>
+        <link rel="stylesheet" href="css/estilos.css">
+        <script src="js/index.js"></script>
+    </head>
+    <body>
+        <h1>Cifrado Afin</h1>
+        <div class="columna">
+            <h2>Ingrese el texto a cifrar</h2>
+            <textarea id="TextToCipher" cols="62" rows="5"></textarea>
+            <h2>Ingrese el valor de a</h2>
+            <input type="text" placeholder="Ingrese el valor de a" id="a">
+            <h2>Ingrese el valor de b</h2>
+            <input type="text" placeholder="Ingrese el valor de b" id="b">
+            <h2>Texto cifrado</h2>
+            <textarea name="" id="Text_Area_Cipher" cols="62" rows="5"></textarea>
+            <label id="Lab_Text_Cipher"></label>
+            <br />
+            <button class="btn btn-primary mb-3"onclick="cipherText()">Cifrar</button>
+        </div>
+        <div class="columna">
+            <h2></h2>
+        </div>
+        <div class="columna">
+            <h2>Ingrese el texto a descifrar</h2>
+            <input type="text" placeholder="Ingrese el texto" id="textD">
+            <h2>Texto descifrado</h2>
+            <label name="textoDescifrado">El Texto ya descifrado!!!!</label>
+            <br />
+            <input type="button" value="Descifrar" onclick="decodeText()">
+        </div>
+    </body>
+</html>
